@@ -48,7 +48,7 @@ header.top{position:relative;z-index:20;background:var(--bg)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--bg)}
 .bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 24px;padding-block:14px}
 .brand{font-family:var(--f-display);font-weight:800;font-size:1.35rem;letter-spacing:-.02em;text-decoration:none;color:var(--fg);display:flex;align-items:center;gap:10px}
-.brand img{height:170px;width:170px;display:block}
+.brand img{height:260px;width:260px;display:block}
 nav{display:flex;flex-wrap:wrap;gap:2px 4px}
 nav a{font-weight:500;text-decoration:none;color:var(--fg);padding:8px 14px;border-radius:999px}
 nav a:hover{background:var(--sky)}
@@ -116,7 +116,7 @@ textarea{min-height:120px;resize:vertical}
 .bgtex{background-size:cover;background-position:center}
 footer{margin-top:40px;padding-block:28px 40px;display:flex;flex-wrap:wrap;gap:12px 32px;justify-content:space-between;color:var(--muted);font-size:.92rem;border-top:1px solid var(--line)}
 @media (max-width:860px){
-  .brand img{height:124px;width:124px}
+  .brand img{height:190px;width:190px}
   .hero,.service,.two,.check{grid-template-columns:1fr}
   .hero{gap:28px}
   .hero .ph{border-radius:28px 28px 28px 80px}
@@ -173,7 +173,7 @@ footer{margin-top:40px;padding-block:28px 40px;display:flex;flex-wrap:wrap;gap:1
   </div>
 
   <div class="sechead">
-    <p class="eyebrow">Wat ik doe</p>
+    <p class="eyebrow">Wat wij doen</p>
     <h2>Vijf soorten werk</h2>
   </div>
   <div class="tiles">
@@ -210,8 +210,8 @@ footer{margin-top:40px;padding-block:28px 40px;display:flex;flex-wrap:wrap;gap:1
   </div>
   <ol class="steps">
     <li><h3>Gesprek</h3><p>We bepalen wat je nodig hebt, waar en wanneer. Je krijgt een offerte.</p></li>
-    <li><h3>Luchtruimcheck</h3><p>Brussel ligt grotendeels in beperkte zones. Ik controleer de locatie op DroneGuide en vraag toelating aan waar het moet.</p></li>
-    <li><h3>Opnames</h3><p>Ik vlieg op de afgesproken dag, met een vliegzone die ik afbaken.</p></li>
+    <li><h3>Luchtruimcheck</h3><p>Brussel ligt grotendeels in beperkte zones. Wij controleren de locatie op DroneGuide en vragen toelating aan waar het moet.</p></li>
+    <li><h3>Opnames</h3><p>Wij vliegen op de afgesproken dag, met een vliegzone die wij afbakenen.</p></li>
     <li><h3>Levering</h3><p>Je krijgt de gemonteerde beelden of de ruwe bestanden.</p></li>
   </ol>
 
@@ -223,14 +223,14 @@ footer{margin-top:40px;padding-block:28px 40px;display:flex;flex-wrap:wrap;gap:1
 
 <section class="view" id="v-diensten" hidden>
   <p class="eyebrow">Diensten</p>
-  <h1 style="font-size:clamp(2.3rem,6vw,4.2rem)">Wat ik voor je kan doen</h1>
+  <h1 style="font-size:clamp(2.3rem,6vw,4.2rem)">Wat wij voor je kunnen doen</h1>
   <p class="lead" style="margin-top:16px">Alle prijzen op offerte. De prijs hangt af van de locatie, de duur en de levering.</p>
 
   <article class="service">
     <div class="ph" data-slot="film" role="img" aria-label="Cinewhoopbeeld door een ruimte"><span class="tag">Beeld volgt</span></div>
     <div class="col">
       <h2>FPV en cinewhoop</h2>
-      <p>De cinewhoop is klein, heeft ringen rond de propellers en maakt weinig lawaai. Daardoor kan ik binnen vliegen en dicht bij gebouwen en mensen werken.</p>
+      <p>De cinewhoop is klein, heeft ringen rond de propellers en maakt weinig lawaai. Daardoor kunnen wij binnen vliegen en dicht bij gebouwen en mensen werken.</p>
       <ul>
         <li>Rondleidingen door panden, kantoren en winkels</li>
         <li>Evenementen, zalen en podia</li>
@@ -244,7 +244,7 @@ footer{margin-top:40px;padding-block:28px 40px;display:flex;flex-wrap:wrap;gap:1
     <div class="ph" data-slot="lucht" role="img" aria-label="Luchtbeeld van Brussel"><span class="tag">Beeld volgt</span></div>
     <div class="col">
       <h2>Luchtfoto en video</h2>
-      <p>Beelden van boven laten zien hoe een plek in elkaar zit. Ik gebruik dan een drone voor stabiele foto en video op grotere afstand.</p>
+      <p>Beelden van boven laten zien hoe een plek in elkaar zit. Wij gebruiken dan een drone voor stabiele foto en video op grotere afstand.</p>
       <ul>
         <li>Vastgoed en nieuwbouw</li>
         <li>Bouwplaatsen en voortgangsfoto's</li>
@@ -272,7 +272,7 @@ footer{margin-top:40px;padding-block:28px 40px;display:flex;flex-wrap:wrap;gap:1
     <div class="ph" data-slot="mapping" role="img" aria-label="Kaart van een perceel met vliegroute en 3D-model"><span class="tag">Beeld volgt</span></div>
     <div class="col">
       <h2>Drone mapping</h2>
-      <p>Ik breng een huis, dak of stuk grond in kaart met een vlieggrid en verwerk de foto's tot een nauwkeurig resultaat dat je kunt meten, delen en gebruiken.</p>
+      <p>Wij brengen een huis, dak of stuk grond in kaart met een vlieggrid en verwerken de foto's tot een nauwkeurig resultaat dat je kunt meten, delen en gebruiken.</p>
       <ul>
         <li>Orthofoto: een scherpe, maatvaste kaart van boven</li>
         <li>3D-model of puntenwolk van een gebouw of terrein</li>
@@ -287,7 +287,7 @@ footer{margin-top:40px;padding-block:28px 40px;display:flex;flex-wrap:wrap;gap:1
     <div class="ph" data-slot="montage" role="img" aria-label="Montage en colorgrading"><span class="tag">Beeld volgt</span></div>
     <div class="col">
       <h2>Editing en colorgrading</h2>
-      <p>Ruwe dronebeelden worden pas een goede video na montage en kleurbewerking. Ik doe dat zelf, zodat je één aanspreekpunt hebt van opname tot eindresultaat.</p>
+      <p>Ruwe dronebeelden worden pas een goede video na montage en kleurbewerking. Wij doen dat zelf, zodat je één aanspreekpunt hebt van opname tot eindresultaat.</p>
       <ul>
         <li>Montage met muziek, titels en ondertitels</li>
         <li>Colorgrading voor een rustige, samenhangende look</li>
@@ -335,7 +335,7 @@ footer{margin-top:40px;padding-block:28px 40px;display:flex;flex-wrap:wrap;gap:1
   <h1 style="font-size:clamp(2.3rem,6vw,4.2rem)">Wie vliegt er</h1>
   <div class="two">
     <div>
-      <p>BXL Drones zit in Brussel. Ik werk met FPV-drones: je ziet het beeld in een bril terwijl je vliegt. Zo volg ik de opname zoals een cameraman, maar door ruimtes waar geen kraan of gewone drone komt.</p>
+      <p>BXL Drones zit in Brussel. Wij werken met FPV-drones: je ziet het beeld in een bril terwijl je vliegt. Zo volgen wij de opname zoals een cameraman, maar door ruimtes waar geen kraan of gewone drone komt.</p>
       <p>De cinewhoop heeft ringen rond de propellers en een digitaal videosysteem. De opnames zijn scherp genoeg voor bedrijfsvideo en vastgoed.</p>
     </div>
     <div class="ph" data-slot="film" role="img" aria-label="De cinewhoop"><span class="tag">Beeld volgt</span></div>
@@ -343,9 +343,9 @@ footer{margin-top:40px;padding-block:28px 40px;display:flex;flex-wrap:wrap;gap:1
 
   <div class="sechead">
     <p class="eyebrow">Veiligheid en wetgeving</p>
-    <h2>Zo houd ik het netjes</h2>
+    <h2>Zo houden wij het netjes</h2>
   </div>
-  <p style="margin-top:14px;color:var(--muted)">In Brussel liggen veel zones met beperkingen. Ik controleer vooraf elke locatie op DroneGuide, de officiële kaart van skeyes, en vraag toelating waar die nodig is.</p>
+  <p style="margin-top:14px;color:var(--muted)">In Brussel liggen veel zones met beperkingen. Wij controleren vooraf elke locatie op DroneGuide, de officiële kaart van skeyes, en vragen toelating waar die nodig is.</p>
   <ul class="check">
     <li><b>Exploitant</b><span class="todo">Registratienummer invullen (FOD Mobiliteit)</span></li>
     <li><b>Bewijs van bekwaamheid</b><span>Houder van het Europese A1/A3-drone bewijs</span></li>
@@ -357,7 +357,7 @@ footer{margin-top:40px;padding-block:28px 40px;display:flex;flex-wrap:wrap;gap:1
 <section class="view" id="v-contact" hidden>
   <p class="eyebrow">Contact</p>
   <h1 style="font-size:clamp(2.3rem,6vw,4.2rem)">Vertel wat je nodig hebt</h1>
-  <p class="lead" style="margin-top:16px">Vul dit in, kopieer de tekst en stuur hem per e-mail. Ik antwoord met een voorstel.</p>
+  <p class="lead" style="margin-top:16px">Vul dit in, kopieer de tekst en stuur hem per e-mail. Wij antwoorden met een voorstel.</p>
   <p class="eyebrow" style="margin-top:28px">E-mail</p>
   <p class="mail" id="mail"></p>
 
