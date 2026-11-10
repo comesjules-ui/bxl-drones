@@ -54,6 +54,8 @@ document.head.appendChild(st);
 st.textContent += ".lang button{display:inline-flex;align-items:center;gap:7px;font-size:.88rem;padding:8px 12px}.lang svg{width:24px;height:16px;border-radius:3px;display:block;box-shadow:0 0 0 1px rgba(0,0,0,.18)}nav a{font-size:1.15rem;padding:10px 18px}@media(max-width:700px){nav a{font-size:1.02rem;padding:8px 13px}.lang button{padding:7px 9px;gap:5px}.lang svg{width:20px;height:14px}}";
 
 var FLAG = {nl:"<svg viewBox='0 0 3 2' aria-hidden='true'><rect width='3' height='2' fill='#21468B'/><rect width='3' height='1.333' fill='#fff'/><rect width='3' height='.667' fill='#AE1C28'/></svg>",fr:"<svg viewBox='0 0 3 2' aria-hidden='true'><rect width='3' height='2' fill='#EF4135'/><rect width='2' height='2' fill='#fff'/><rect width='1' height='2' fill='#0055A4'/></svg>",en:"<svg viewBox='0 0 60 30' aria-hidden='true'><clipPath id='bxlt'><path d='M30,15h30v15zv15h-30zh-30v-15zv-15h30z'/></clipPath><path d='M0,0v30h60v-30z' fill='#012169'/><path d='M0,0L60,30M60,0L0,30' stroke='#fff' stroke-width='6'/><path d='M0,0L60,30M60,0L0,30' clip-path='url(#bxlt)' stroke='#C8102E' stroke-width='4'/><path d='M30,0v30M0,15h60' stroke='#fff' stroke-width='10'/><path d='M30,0v30M0,15h60' stroke='#C8102E' stroke-width='6'/></svg>"};
+var BE = "<svg viewBox='0 0 3 2' aria-hidden='true'><rect width='3' height='2' fill='#ED2939'/><rect width='2' height='2' fill='#FAE042'/><rect width='1' height='2' fill='#000'/></svg>";
+FLAG.nl += BE; FLAG.fr += BE;
 var NAME = {nl:"Nederlands",fr:"Français",en:"English"};
 var bar = document.querySelector("header nav");
 var box = document.createElement("div"); box.className = "lang"; box.setAttribute("role","group"); box.setAttribute("aria-label","Taal / Langue / Language");
