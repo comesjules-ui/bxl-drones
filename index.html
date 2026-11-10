@@ -257,7 +257,7 @@ footer{margin-top:40px;padding-block:28px 40px;display:flex;flex-wrap:wrap;gap:1
   <p class="lead" style="margin-top:16px">Alle prijzen op offerte. De prijs hangt af van de locatie, de duur en de levering.</p>
 
   <article class="service">
-    <div class="ph" data-slot="lucht" role="img" aria-label="Industrieel kanaal van boven"><span class="tag">Beeld volgt</span></div>
+    <div class="ph" data-slot="lucht" role="img" aria-label="Rivierlandschap bij Nijmegen van boven"><span class="tag">Beeld volgt</span></div>
     <div class="col">
       <h2>Luchtopnames</h2>
       <p>Van boven zie je in één beeld hoe een plek in elkaar zit. Wij fotograferen en filmen terreinen, gebouwen en infrastructuur, rustig en scherp, voor wie er zakelijk iets mee wil.</p>
@@ -291,7 +291,7 @@ footer{margin-top:40px;padding-block:28px 40px;display:flex;flex-wrap:wrap;gap:1
   </article>
 
   <article class="service">
-    <div class="ph" data-slot="fpv" role="img" aria-label="FPV-opname boven een renbaan"><span class="tag">Beeld volgt</span></div>
+    <div class="ph" data-slot="fpv" role="img" aria-label="FPV-opname door een woonkamer"><span class="tag">Beeld volgt</span></div>
     <div class="col">
       <h2>FPV</h2>
       <p>Bij FPV zie je het beeld in een bril terwijl je vliegt. Zo volgen wij een onderwerp snel en dicht, waar een gewone drone niet komt.</p>
@@ -479,7 +479,7 @@ document.querySelectorAll("[data-slot]").forEach(function(el){
   el.classList.add("has");
   if (el.classList.contains("cta")) { el.style.color = "#fff"; }
 });
-var CLIPS = {hero:"hero.mp4",lucht:"lucht.mp4",lucht2:"lucht2.mp4",lucht3:"hero2.mp4",fpv2:"fpv2.mp4",interieur:"interieur.mp4",interieur2:"interieur2.mp4",fpv:"fpv.mp4",inspectie:"inspectie.mp4"};
+var CLIPS = {hero:"hero.mp4",lucht:"hero2.mp4",lucht2:"lucht2.mp4",lucht3:"hero2.mp4",fpv2:"fpv2.mp4",interieur:"interieur.mp4",interieur2:"interieur2.mp4",fpv:"fpv2.mp4",inspectie:"inspectie.mp4"};
 var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
 function attachClip(el){
   var src = CLIPS[el.dataset.slot];
