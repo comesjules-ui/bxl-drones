@@ -59,7 +59,7 @@ FLAG.nl += BE; FLAG.fr += BE;
 var NAME = {nl:"Nederlands",fr:"Français",en:"English"};
 var bar = document.querySelector("header nav");
 var box = document.createElement("div"); box.className = "lang"; box.setAttribute("role","group"); box.setAttribute("aria-label","Taal / Langue / Language");
-LANGS.forEach(function(l){ var b = document.createElement("button"); b.type = "button"; b.dataset.l = l; b.innerHTML = FLAG[l] + "<span>" + l.toUpperCase() + "</span>"; b.setAttribute("aria-label", NAME[l]); b.setAttribute("aria-pressed","false"); b.addEventListener("click", function(){ setLang(l, true); }); box.appendChild(b); });
+LANGS.forEach(function(l){ var b = document.createElement("button"); b.type = "button"; b.dataset.l = l; b.innerHTML = "<span>" + l.toUpperCase() + "</span>"; b.setAttribute("aria-label", NAME[l]); b.setAttribute("aria-pressed","false"); b.addEventListener("click", function(){ setLang(l, true); }); box.appendChild(b); });
 if (bar) bar.appendChild(box);
 /* dynamische tekst en formulier */
 var busy = false;
